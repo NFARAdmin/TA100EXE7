@@ -1,7 +1,7 @@
-//OLD and works with NodeJS16
+// OLD and works with NodeJS16
 // const Page = require('./page');
 
-//NEW and works with NodeJS 18 and above
+// //NEW and works with NodeJS 18 and above
 import Page from './page.js';
 
 
@@ -34,7 +34,7 @@ class KeyPressesPage extends Page {
 }
 
 //OLD and works with NodeJS16
-//module.exports = new KeyPressesPage();
+// module.exports = new KeyPressesPage();
 
 //NEW and works with NodeJS 18 and above
 export default new KeyPressesPage();

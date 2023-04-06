@@ -11,6 +11,6 @@ describe('My Key Press application', () => {
         await KeyPressesPage.pressAkey('C');
 
         await expect(KeyPressesPage.keyPressResult).toHaveTextContaining(
-            'You entered: D');
+            'You entered: C');
     });
 });
