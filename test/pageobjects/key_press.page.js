@@ -1,10 +1,7 @@
-// OLD and works with NodeJS16
-// const Page = require('./page');
+
 
 // //NEW and works with NodeJS 18 and above
 import Page from './page.js';
-
-
 
 /**
  * sub page containing specific selectors and methods for a specific page
